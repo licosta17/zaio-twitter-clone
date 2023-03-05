@@ -13,17 +13,17 @@
 .nav-container {
     width: 317;
     height: 100vh;
-    background-color: black;
+    /* background-color: black; */
 }
 .nav-items {
     width: 251px;
-    height: auto;
+    height: 100%;
     padding: 12px;
 }
 .nav-items i{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     width: 138px;
     height: 26px;
     padding: 12px;
