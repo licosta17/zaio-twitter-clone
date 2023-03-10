@@ -22,7 +22,8 @@ body {
     border-right: 1px solid var(--twitter-background);
     flex: 0.2;
     min-width: 270px;
-    margin-top: 20px;
+    margin-top: 6px;
+    margin-left: 40px;
     padding: 0 40px;
 }
 .fa-twitter {
@@ -105,6 +106,13 @@ body {
     font-size: 20px;
     font-weight: 800;
 }
+.feed_header {
+    display: flex;
+    justify-content: space-between;
+}
+.feed_header i:hover {
+    color: var(--twitter-color);
+}
 
 /* Tweetbox styles */
 .tweetbox {
@@ -142,3 +150,5 @@ body {
     margin-top: 20px;
     margin-left: auto;
 }
+
+/* Post section styles */
