@@ -126,11 +126,11 @@ body {
 }
 .tweetbox_input img {
     border-radius: 50%;
-    height: 40px;
+    height: 50px;
 }
 .tweetbox_input input {
     flex: 1;
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 20px;
     border: none;
     outline: none;
@@ -152,3 +152,70 @@ body {
 }
 
 /* Post section styles */
+.post_section {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twitter-background);
+    padding-bottom: 10px;
+    margin-top: 8px;
+}
+.post_img {
+    padding: 0 10px 20px 20px;
+}
+.post_img img {
+    border-radius: 50%;
+    height: 50px;
+}
+.post_body {
+    flex: 1;
+    padding: 2px;
+}
+.post_body img {
+    width: 450px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.post_header_text h3 {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.post_header_details {
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+}
+.post_description {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.post_badge {
+    font-size: 14px !important;
+    color: var(--twitter-color);
+    margin-right: 5px;
+}
+.post_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    width: 450px;
+}
+.active_lightblue:hover {
+    color: #50b7f5;
+    cursor: pointer;
+    transition: 0.9ms;
+}
+.active_green:hover {
+    color: rgb(13, 216, 13);
+    cursor: pointer;
+    transition: 0.9ms;
+}
+.active_red:hover {
+    color: rgb(236, 48, 48);
+    cursor: pointer;
+    transition: 0.9ms;
+}
+.active_blue:hover {
+    color: rgb(63, 63, 230);
+    cursor: pointer;
+    transition: 0.9ms;
+}
