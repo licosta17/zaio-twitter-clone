@@ -202,20 +202,20 @@ body {
 .active_lightblue:hover {
     color: #50b7f5;
     cursor: pointer;
-    transition: 0.9ms;
+    transition: color 100ms ease-out;
 }
 .active_green:hover {
     color: rgb(13, 216, 13);
     cursor: pointer;
-    transition: 0.9ms;
+    transition: color 100ms ease-out;
 }
 .active_red:hover {
     color: rgb(236, 48, 48);
     cursor: pointer;
-    transition: 0.9ms;
+    transition: color 100ms ease-out;
 }
 .active_blue:hover {
     color: rgb(63, 63, 230);
     cursor: pointer;
-    transition: 0.9ms;
+    transition: color 100ms ease-out;
 }
