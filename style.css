@@ -175,14 +175,25 @@ body {
     object-fit: contain;
     border-radius: 20px;
 }
+/* .post_header_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
 .post_header_text h3 {
     font-size: 17px;
     margin-bottom: 5px;
 }
 .post_header_details {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
     font-size: 14px;
     font-weight: 600;
     color: gray;
+}
+.post_header_details i {
+    margin-right: 20px;
 }
 .post_description {
     font-size: 17px;
@@ -198,6 +209,7 @@ body {
     justify-content: space-between;
     margin-top: 8px;
     width: 450px;
+    color: gray;
 }
 .active_lightblue:hover {
     color: #50b7f5;
@@ -218,4 +230,36 @@ body {
     color: rgb(63, 63, 230);
     cursor: pointer;
     transition: color 100ms ease-out;
+}
+
+/* Widgets styles */
+.widgets_container {
+    flex: 0.3;
+}
+.widgets_input {
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.widgets_input input {
+    border: none;
+    background-color: var(--twitter-background);
+    outline: none;
+}
+.widgets_search {
+    color: gray;
+}
+.widgets_embed {
+    margin: 15px 0 0 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+.widgets_embed h2 {
+    font-size: 18px;
+    font-weight: 800;
 }
