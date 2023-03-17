@@ -25,8 +25,9 @@ body {
     margin-top: 5px;
     margin-left: 40px;
     padding: 0 30px;
-    position: static;
     z-index: 100;
+    position: relative;
+    overflow-y: hidden;
 }
 .fa-twitter {
     color: var(--twitter-color);
@@ -103,7 +104,7 @@ body {
     background-color: white;
     z-index: 100;
     border: 1px solid var(--twitter-background);
-    padding: 15px 20px;
+    padding: 10px 20px;
 }
 .feed_header h2 {
     font-size: 20px;
@@ -115,6 +116,7 @@ body {
 }
 .feed_header i:hover {
     color: var(--twitter-color);
+    cursor: pointer;
 }
 
 /* Tweetbox styles */
@@ -157,6 +159,16 @@ body {
     margin-top: 20px;
     margin-left: auto;
 }
+.tweetbox_icons {
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.tweetbox_icons:hover {
+    cursor: pointer;
+    color: var(--twitter-color);
+}
 
 /* Post section styles */
 .post_section {
@@ -182,19 +194,14 @@ body {
     object-fit: contain;
     border-radius: 20px;
 }
-/* .post_header_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-} */
+.post_body i {
+    margin-left: 210px;
+}
 .post_header_text h3 {
     font-size: 17px;
     margin-bottom: 5px;
 }
 .post_header_details {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
     font-size: 14px;
     font-weight: 600;
     color: gray;
@@ -267,7 +274,7 @@ body {
     justify-content: space-between;
 }
 .trends_cards h3 {
-    font-size: 10px;
+    font-size: 12px;
     color: gray;
 }
 .trends_cards h2 {
@@ -278,6 +285,7 @@ body {
 #show_more {
     color: var(--twitter-color);
     font-size: 15px;
+    padding-top: 20px;
 }
 
 /* Who to Follow styles */
@@ -295,21 +303,23 @@ body {
 
 /* Footer styles */
 .footer_container {
-    padding: 25px;
+    padding: 25px 0 0 25px;
+    margin-top: 60px;
 }
-.footer-items {
-    margin-bottom: 12px;
-}
-.footer-items span {
-    font-size: 10px;
+.footer_container span {
+    margin-bottom: 5px;
+    font-size: 15px;
     font-weight: 500;
     margin-right: 5px;
     color: #606060;
     cursor: pointer;
+    /* background-color: var(--twitter-background);
+    border-radius: 10px; */
 }
 /* Widgets styles */
 .widgets_container {
     flex: 0.3;
+    overflow-y: hidden;
 }
 .widgets_input {
     display: flex;
