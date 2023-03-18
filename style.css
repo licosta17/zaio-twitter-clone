@@ -300,6 +300,19 @@ body {
     font-size: 18px;
     font-weight: 800;
 }
+.follow_container img{
+    border-radius: 50%;
+    height: 50px;
+}
+.follow_container h3 {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.follow_img span{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
 
 /* Footer styles */
 .footer_container {
@@ -308,8 +321,8 @@ body {
 }
 .footer_container span {
     margin-bottom: 5px;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 600;
     margin-right: 5px;
     color: #606060;
     cursor: pointer;
