@@ -300,24 +300,37 @@ body {
     font-size: 18px;
     font-weight: 800;
 }
-.follow_container img{
+.follow_body {
+    display: flex;
+    align-items: center;
+}
+.follow_body img {
     border-radius: 50%;
     height: 50px;
 }
-.follow_container h3 {
-    font-size: 17px;
-    margin-bottom: 5px;
+.follow_body span {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 7px;
 }
-.follow_img span{
+.follow_details h4 {
+    font-size: 15px;
+    margin-left: 7px;
+}
+.follow_details button {
+    padding-bottom: 10px;
+}
+
+/* .follow_img span{
     display: flex;
     align-items: center;
     padding-left: 10px;
-}
+} */
 
 /* Footer styles */
 .footer_container {
-    padding: 25px 0 0 25px;
-    margin-top: 60px;
+    padding: 20px 0 0 25px;
+    margin-top: 30px;
 }
 .footer_container span {
     margin-bottom: 5px;
