@@ -12,6 +12,32 @@
   @media (min-width: 901px) {
     /* Adjust layout for large screens */
   }
+
+  img {
+    /* width: 100%; */
+    height: auto;
+    object-fit: cover;
+    image-rendering: pixelated;
+  }
+
+  /* @font-face {
+    font-family: 'Open Sans';
+    src: url('open-sans.woff2') format('woff2');
+    font-display: swap;
+  }
+  
+  .element {
+    background-image: url();
+    background-size: cover;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.element {
+  background-image: url('images/image.jpg');
+} */
+
+  
   
   
   
