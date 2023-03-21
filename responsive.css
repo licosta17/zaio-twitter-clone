@@ -1,0 +1,20 @@
+/* Small screen styles */
+@media (max-width: 600px) {
+    /* Adjust layout for small screens */
+  }
+  
+  /* Medium screen styles */
+  @media (min-width: 601px) and (max-width: 900px) {
+    /* Adjust layout for medium screens */
+  }
+  
+  /* Large screen styles */
+  @media (min-width: 901px) {
+    /* Adjust layout for large screens */
+  }
+  
+  
+  
+  
+  
+  
